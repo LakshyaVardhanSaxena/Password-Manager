@@ -1,0 +1,162 @@
+body{
+    background-color: rgb(219, 41, 41);
+}
+
+ .logo {
+     font-weight: 900;
+     margin: 20px;
+     font-size: 280%;
+     color: rgb(241, 8, 8);
+     padding: 12px;
+ }
+
+ .lock{
+    width: 40px;
+    height: 40px;
+    /* background-color: #f00b0b; */
+    filter: invert(1);
+    
+ }
+
+
+ j nav {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     height: 80px;
+     align-items: center;
+     background-color: rgba(22, 14, 14, 0);
+
+ }
+
+ ul {
+     color: rgb(244, 242, 250);
+     display: flex;
+     align-items: center;
+     font-style: normal;
+     gap: 20px;
+     list-style: none;
+ }
+
+ .options>li:hover {
+     color: rgb(120, 125, 220);
+
+ }
+
+ table {
+     border: 2px solid black;
+     padding: 0;
+     width: 100%;
+     margin: 2px;
+ }
+
+ table,
+ tr,
+ td {
+     border: 3px solid rgb(5, 19, 6);
+     border-collapse: collapse;
+     padding: 8px 5px;
+     background: rgba(29, 27, 24, 0.8);
+
+ }
+
+ th {
+     background-color: rgb(9, 17, 19);
+ }
+
+ .btn {
+     padding: 10px;
+     cursor: pointer;
+     border: 2px solid rgb(221, 25, 25);
+     border-radius: 20px;
+     width: 32%;
+     font-weight: bold;
+     font-size: large;
+ }
+
+ .box {
+     margin: 30px 25px;
+     font-size: large;
+
+ }
+
+ .box h1,
+ h2 {
+     font-family: Lucida Bright;
+     color: rgb(255, 17, 0);
+ }
+
+ .box h1 {
+     border: 2px solid rgb(184, 13, 13);
+     border-radius: 90px;
+     padding: 10px;
+     width: 500px;
+
+
+ }
+
+ .container {
+     width: 90%;
+     border: 2px solid rgb(19, 12, 12);
+     border-radius: 10px;
+     margin: -20px 0%;
+     margin-bottom: 30px;
+     background: rgba(20, 32, 21, 0.8);
+     padding: 20px;
+     color: rgb(255, 0, 0);
+
+ }
+
+ input {
+     width: 98%;
+     height: 35px;
+     font-size: 20px;
+     border-radius: 3px;
+     padding: 4px 1px;
+     border: 1px solid #f00b0b;
+     padding-inline-start: 2%;
+     border-radius: 8px;
+ }
+
+ .btnsm {
+     padding: 9px;
+     width: 100%;
+     cursor: pointer;
+     background-color: rgb(250, 5, 5);
+     color: rgb(12, 6, 9);
+     border: 2px solid rgb(221, 25, 25);
+     border-radius: 2px;
+ }
+
+ body {
+     background-image: url("https://static0.srcdn.com/wordpress/wp-content/uploads/2022/11/password-logo.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     /* height: 100vh; */
+     margin: 0;
+ }
+
+ .options {
+     color: rgb(17, 19, 14);
+     display: flex;
+     align-items: center;
+     font-style: normal;
+     gap: 17px;
+     font-size: large;
+     list-style: none;
+     cursor: pointer;
+     margin-left: auto;
+     margin-right: 3%;
+     padding: 8px;
+     border-radius: 6px;
+
+ }
+
+ li {
+     border: 2px solid black;
+     padding: 5px;
+     border-radius: 17px;
+
+ }
+
