@@ -1,5 +1,4 @@
 //Logic to fil the Table
-
 const deletePassword = (website) => {
     let data = localStorage.getItem("passwords")
     let arr = JSON.parse(data);
@@ -9,9 +8,7 @@ const deletePassword = (website) => {
     localStorage.setItem("passwords", JSON.stringify(arrUpdated))
     alert(`Successfully deleted ${website}'s password`)
     showPasswords()
-
 }
-
 const showPasswords = () => {
     let tb = document.querySelector("table")
     let data = localStorage.getItem("passwords")
@@ -25,8 +22,6 @@ const showPasswords = () => {
             <th>Password</th>
             <th>Delete</th>
         </tr>`
-
-
         let arr = JSON.parse(data);
         let str = ""
         for (let index = 0; index < arr.length; index++) {
@@ -38,10 +33,8 @@ const showPasswords = () => {
                 <td>${element.password}</td>
                 <td><button class="btnsm" onclick="deletePassword('${element.website}')">Delete </button></td>
                 </tr>`
-
         }
         tb.innerHTML = tb.innerHTML + str
-
     }
     website.value = ""
     username.value = ""
@@ -60,17 +53,12 @@ document.querySelector(".btn").addEventListener("click", (e) => {
         json.push({ website: website.value, username: username.value, password: password.value })
         alert("Password Saved");
         localStorage.setItem("passwords", JSON.stringify(json))
-
     }
     else {
         let json = JSON.parse(localStorage.getItem("passwords"))
         json.push({ website: website.value, username: username.value, password: password.value })
         alert("Password Saved");
         localStorage.setItem("passwords", JSON.stringify(json))
-
     }
     showPasswords()
 })
-
-
-
