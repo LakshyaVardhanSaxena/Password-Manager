@@ -42,7 +42,7 @@ body{
  table,
  tr,
  td {
-     border: 3px solid rgb(5, 19, 6);
+     border: 2px solid rgb(22, 22, 108);
      border-collapse: collapse;
      padding: 8px 5px;
      background: rgba(29, 27, 24, 0.8);
@@ -75,9 +75,9 @@ body{
 
  .box h1 {
      border: 2px solid rgb(184, 13, 13);
-     border-radius: 90px;
+     border-radius: 11px;
      padding: 10px;
-     width: 500px;
+     width: 55vw;
  }
 
  .container {
@@ -93,7 +93,7 @@ body{
 
  input {
      width: 98%;
-     height: 35px;
+     height: 55px;
      font-size: 20px;
      border-radius: 3px;
      padding: 4px 1px;
@@ -142,3 +142,4 @@ body{
      padding: 5px;
      border-radius: 17px;
  }
+
