@@ -42,7 +42,7 @@ Pass-L/
       Delete any password instantly.
 
 
-co,puterAuthor :-
+Author :-
 Lakshya Vardhan Saxena
 Project Name: Pass-L
 Role: Frontend Developer
