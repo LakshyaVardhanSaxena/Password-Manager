@@ -29,6 +29,11 @@ root/
 └── script.js       
 
 ---
+## 📸 Preview
+
+ <img width="1366" height="728" alt="Pass-L - Google Chrome 12-12-2025 17_35_56" src="https://github.com/user-attachments/assets/aa16251e-23b1-4a98-9f44-e9213ced2091" />
+
+---
 
 ## ⚙️ How It Works 
 
@@ -44,10 +49,16 @@ root/
 3. User can:
      - View all saved passwords.
      - Delete any password instantly.
-
-# 💻 Author 
-**Lakshya Vardhan Saxena**
-
+  
 
 ## 📄 License
-MIT License. See `LICENSE` file for details.
+This project is licensed under the MIT License. You are free to use, modify, and distribute it.
+
+# 💻 Author 
+Lakshya Vardhan Saxena
+
+GitHub: https://github.com/LakshyaVardhanSaxena
+
+Linkedin: https://www.linkedin.com/in/lakshya-vardhan-saxena-61024633b
+
+
